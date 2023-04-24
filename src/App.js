@@ -4,8 +4,9 @@ import Home from "./components/homepage/Home";
 import Products from "./components/products/Products";
 import ProductDescription from "./components/products/ProductDescription";
 import Header from "./components/common/Header";
-import Footer from "./components/common/Footer";
 import { Route, Routes, useNavigate} from "react-router-dom";
+
+
 export default function App() {
   const [products, setProducts] = useState([]);
   const [singleProduct,setSingleProduct]=useState([]);
@@ -57,9 +58,6 @@ export default function App() {
           <Route path="/products/:id" element={<ProductDescription products={products}/>}/>
           </Routes>
         </div>
-        <footer className="footer">
-          <Footer />
-        </footer>
       </div>
    
   );

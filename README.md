@@ -1,6 +1,23 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains three pages
+1.Home
+2.All products
+3.Product Description
+# Home page
+In home page it displays the categories of the products
+when user clicks on each category it navigates to products page and it display the list of products corresponding to the selected category
+# All products
+when user clicks on all products in main menu it displays all the products available when user clicks on product it navigates to the product description page
+# product description
+It displays the product image on left along with product description on the right 
+# cart
+no action has been attached when user clicks cart icon
+# user icon
+no action has been attached when user clicks user icon
+
+# not covered
+Test cases and backend part and responsive design
 
 ## Available Scripts
 
